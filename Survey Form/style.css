@@ -1,0 +1,225 @@
+body{
+    background-color: rgb(229, 225, 245);
+}
+
+#title{
+  background-color: rgb(32, 15, 95);
+  color:  rgb(9, 173, 173);
+  font-size: 40px; 
+  font-family: Baskerville Old Face; 
+  text-align: center;
+}
+
+#description{
+    font-size: 25px;
+    font-family: bell MT;
+    text-align: center;
+}
+
+#name-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#name{
+    font-family: sylfaen;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px; 
+    margin-right: 8px; 
+    background-color:rgba(19, 189, 189, 0.507);
+}
+
+#email-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#email{
+    font-family: sylfaen;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 2px; 
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#number-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#number{
+    font-family: sylfaen;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100px;  
+    margin-left: 2px; 
+    background-color:rgba(19, 189, 189, 0.507);
+}
+
+#genders{
+    font-size: 24px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+
+#male-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#male{ 
+    margin-right: 15px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#female-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#female{ 
+    margin-right: 15px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#other-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#other{
+    margin-right: 15px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#none-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#none{
+    margin-right: 15px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#buyers{
+    font-size: 24px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+
+#dropdown{
+    font-family: sylfaen;
+    font-size: 16px;
+    font-weight: bold;  
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#products{
+    font-size: 24px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+
+#tapenade250-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#tapenade250{
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#quan-tap-250{
+    font-family: sylfaen;
+    font-size: 18px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#tapenade500-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#tapenade500{
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#quan-tap-500{
+    font-family: sylfaen;
+    font-size: 18px;
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#tapenade1k-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#tapenade1k{
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#quan-tap-1k{
+    font-family: sylfaen;
+    font-size: 18px;
+    background-color:rgba(19, 189, 189, 0.507);
+    margin-left: 6px;  
+}
+
+#tapenade2k-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#tapenade2k{
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#quan-tap-2k{
+    font-family: sylfaen;
+    font-size: 18px;
+    background-color:rgba(19, 189, 189, 0.507);
+    margin-left: 6px;  
+}
+
+#tapenade5k-label{
+    font-family: sylfaen;
+    font-size: 18px;
+}
+
+#tapenade5k{
+    background-color:rgba(19, 189, 189, 0.507); 
+}
+
+#quan-tap-5k{
+    font-family: sylfaen;
+    font-size: 18px;
+    background-color:rgba(19, 189, 189, 0.507);
+    margin-left: 6px; 
+}
+
+#add-comments-label{
+    font-size: 24px;
+    font-family: Gabriola;
+    font-weight: bold;
+}
+
+#add-comments{
+    font-family: sylfaen;
+    font-size: 18px;
+    text-align: justify;
+    background-color:rgba(19, 189, 189, 0.507);
+    margin-left: 6px;  
+}
+
+#submit{
+    background-color:rgb(133, 138, 138);
+    width: 200px;
+    height: 50px;
+    margin-left: 500px;
+    font-size: 24px;
+    font-family: Gabriola;
+    font-weight: bold;
+}

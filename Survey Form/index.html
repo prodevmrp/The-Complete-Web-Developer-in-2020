@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Built a survey form</title>
+</head>
+<body>
+    <h1 id="title">M2VR Group /Orden request</h1>
+    <p id="description">   
+    To make your order, you must fill out the form below with the requested information<br><br>
+    </p>
+    <form id="survey-form" method="POST">
+        <label id="name-label" for="name">field your name
+            <input id="name" type="text" placeholder="Name" required>
+        </label>    
+        <label  id="email-label" for="email">Enter your email
+            <input id="email" type="email" type="radio" type="checkbox" name="email" placeholder="Email" required>
+        </label>
+        <br>
+        <br>
+        <label id="number-label" for="number">Enter your age
+            <input id="number" type="number" placeholder="Number" min="18" max="120">
+        </label><br>
+        <p id="genders">Gender:</p>
+        <label  id="male-label" for="male">Male
+            <input id="male" type="radio" name="gender" value="male">
+        </label>
+        <label id="female-label" for="female">Female
+            <input id="female" type="radio" name="gender" value="female">
+         </label>
+        <label id="other-label" for="other">Other
+            <input id="other" type="radio" name="gender" value="other">
+        </label>
+        <label id="none-label" for="none">None
+            <input id="none" type="radio" name="gender" value="None">
+        </label>
+        <br>
+        <p id="buyers">Type of buyer:</p>
+        <label for="dropdown">
+            <select id ="dropdown">
+                <option value ="1">Person</option>
+                <option value ="2">Autonomous</option>
+                <option value ="3">Company</option>
+                <option value ="4">Non-profit fundation</option>
+            </select>
+        </label>
+        <br>
+        <br>
+        <p id="products">Poducts</p>
+        <label id="tapenade250-label" for="tapenade250">Tapenade 250g
+            <input id="tapenade250" type="checkbox" name="spreadable" value="Tapenade 250g">
+        </label>
+        <label id="quan-tap-250-label" for="quan-tap-250">
+            <input id="quan-tap-250" type="number" name="quantity" min="0">
+        </label>
+        <br>
+        <label id="tapenade500-label" for="tapenade500">Tapenade 500g
+            <input id="tapenade500" type="checkbox" name="spreadable" value="Tapenade 500g">
+        </label>
+        <label id="quan-tap-500-label" for="quan-tap-500">
+            <input id="quan-tap-500" type="number" name="quantity" min="0">
+        </label>
+        <br>
+        <label id="tapenade1k-label" for="tapenade1k">Tapenade 1Kg
+            <input id="tapenade1k" type="checkbox" name="spreadable" value="Tapenade 1Kg">
+        </label>
+        <label id="quan-tap-1k-label" for="quan-tap-1k">
+            <input id="quan-tap-1k" type="number" name="quantity" min="0">
+        </label>
+        <br>
+        <label id="tapenade2k-label" for="tapenade2k">Tapenade 2Kg
+            <input id="tapenade2k" type="checkbox" name="spreadable" value="Tapenade 2Kg">
+        </label>
+        <label id="quan-tap-2k-label" for="quan-tap-2k">
+            <input id="quan-tap-2k" type="number" name="quantity" min="0">
+        </label>
+        <br>
+        <label id="tapenade5k-label" for="tapenade5k">Tapenade 5Kg
+            <input id="tapenade5k" type="checkbox" name="spreadable" value="Tapenade 5Kg">
+        </label>
+        <label id="quan-tap-5k-label" for="quan-tap-5k">
+            <input id="quan-tap-5k" type="number" name="quantity" min="0">
+        </label>
+        <br>
+        <br>
+        <label id="add-comments-label" for="add-comments">Additional comments:
+        <textarea id="add-comments"></textarea> 
+        </label><br><br>
+        <label>
+            <input id="submit" type="submit" value="submit">
+        </label>
+    </form>
+</body> 
+</html> 

@@ -1,0 +1,66 @@
+#title{
+    font-size: 50px;
+    font-family: georgia;
+    text-align: center;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#image{
+    justify-self: center;
+    justify-content: center;
+    max-width: 100vw;
+}
+
+#img-caption{
+    font-size: 30px;
+    font-family: georgia;
+    font-weight: bold;
+    text-align: left;
+}
+
+#tribute-info{
+    font-size: 18px;
+    font-family: candara-light;
+    text-align: justify;
+}
+
+#philosophy{
+    font-size: 20px;
+    font-family: georgia;
+    font-weight: bold;
+    text-align: left;
+}
+
+#charities{
+    font-size: 18px;
+    font-family: candara-light;
+    text-align: justify;
+}
+
+#tribute-link{
+    font-size: 20px;
+    font-weight: bold;
+    color: blue;
+}
+
+#charitie1{
+    font-size: 18px;
+    font-family: candara-light;
+    text-align: justify;
+}
+
+#charitie2{
+    font-size: 18px;
+    font-family: candara-light;
+    text-align: justify;
+}
+
+#charitie3{
+    font-size: 18px;
+    font-family: candara-light;
+    text-align: justify;
+}
